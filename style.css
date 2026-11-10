@@ -1,0 +1,55 @@
+.rhd-wonderland-credit {
+    font-family: Arial, sans-serif;
+    font-size: 9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #BFB4CF;
+    text-align: center;
+    margin-top: 8px;
+    opacity: .75;
+    transition: .3s ease;
+    cursor: default;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.rhd-wonderland-rabbit {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    flex-shrink: 0;
+    background-color: #BFB4CF;
+    -webkit-mask: url("https://rabbitholedesign.github.io/rhd-credit/rhd-rabbit.svg") center / contain no-repeat;
+    mask: url("https://rabbitholedesign.github.io/rhd-credit/rhd-rabbit.svg") center / contain no-repeat;
+}
+
+.rhd-wonderland-credit-full {
+    display: none;
+}
+
+.rhd-wonderland-credit:hover {
+    opacity: 1;
+}
+
+.rhd-wonderland-credit:hover .rhd-wonderland-credit-short {
+    display: none;
+}
+
+.rhd-wonderland-credit:hover .rhd-wonderland-credit-full {
+    display: inline;
+}
+
+.rhd-wonderland-credit {
+    text-decoration: none;
+}
+
+.rhd-wonderland-credit,
+.rhd-wonderland-credit:link,
+.rhd-wonderland-credit:visited,
+.rhd-wonderland-credit:hover,
+.rhd-wonderland-credit:active {
+    color: #BFB4CF !important;
+    text-decoration: none !important;
+}
