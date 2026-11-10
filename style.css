@@ -17,8 +17,8 @@
 
 .rhd-wonderland-rabbit {
     display: inline-block;
-    width: 11px;
-    height: 11px;
+    width: 10px;
+    height: 10px;
     flex-shrink: 0;
     background-color: #BFB4CF;
     -webkit-mask: url("https://rabbitholedesign.github.io/rhd-credit/rhd-rabbit.svg") center / contain no-repeat;
